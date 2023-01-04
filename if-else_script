@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# IF Esle statements
+
+echo Eneter a number
+read X
+echo
+echo Enter amother number
+read Y
+
+	if [ $X -gt $Y ]
+	then
+		echo Number $X is greater than Number $Y
+	
+	elif [ $X -lt $Y ]
+	then
+		echo Number $X is less than Number  $Y
+	else
+		echo Number $X is equal to Number $Y
+	fi
+
